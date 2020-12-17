@@ -1,0 +1,73 @@
+<Class code="D70.1" kind="category">
+<Meta name="Para295" value="P"/>
+<Meta name="Para301" value="V"/>
+<Meta name="MortL1Code" value="1-050"/>
+<Meta name="MortL2Code" value="2-072"/>
+<Meta name="MortL3Code" value="3-022"/>
+<Meta name="MortL4Code" value="4-018"/>
+<Meta name="MortBCode" value="099"/>
+<Meta name="SexCode" value="9"/>
+<Meta name="SexReject" value="9"/>
+<Meta name="AgeLow" value="9999"/>
+<Meta name="AgeHigh" value="9999"/>
+<Meta name="AgeReject" value="9"/>
+<Meta name="Exotic" value="N"/>
+<Meta name="Content" value="J"/>
+<Meta name="Infectious" value="N"/>
+<Meta name="EBMLabor" value="N"/>
+<SuperClass code="D70"/>
+<SubClass code="D70.10"/>
+<SubClass code="D70.11"/>
+<SubClass code="D70.12"/>
+<SubClass code="D70.13"/>
+<SubClass code="D70.14"/>
+<SubClass code="D70.18"/>
+<SubClass code="D70.19"/>
+<Rubric kind="preferred">
+<Label xml:lang="de" xml:space="default">Arzneimittelinduzierte Agranulozytose und Neutropenie</Label>
+</Rubric>
+<Rubric kind="inclusion">
+<Label xml:lang="de" xml:space="default">Agranulozytose und Neutropenie infolge zytostatischer Therapie</Label>
+</Rubric>
+<Rubric kind="coding-hint">
+<Label xml:lang="de" xml:space="default">
+Für die Subkategorien
+<Reference code="D70.10">D70.10-D70.14</Reference>
+ist nur die kritische Phase der Agranulozytose heranzuziehen, während der die Anzahl der neutrophilen Granulozyten weniger als 500 oder die Anzahl der Leukozyten weniger als 1000 pro Mikroliter Blut beträgt.
+</Label>
+</Rubric>
+</Class>
+
+<Class code="D70.0" kind="category">
+<Meta name="Para295" value="P"/>
+<Meta name="Para301" value="P"/>
+<Meta name="MortL1Code" value="1-050"/>
+<Meta name="MortL2Code" value="2-072"/>
+<Meta name="MortL3Code" value="3-022"/>
+<Meta name="MortL4Code" value="4-018"/>
+<Meta name="MortBCode" value="099"/>
+<Meta name="SexCode" value="9"/>
+<Meta name="SexReject" value="9"/>
+<Meta name="AgeLow" value="9999"/>
+<Meta name="AgeHigh" value="9999"/>
+<Meta name="AgeReject" value="9"/>
+<Meta name="Exotic" value="N"/>
+<Meta name="Content" value="J"/>
+<Meta name="Infectious" value="N"/>
+<Meta name="EBMLabor" value="N"/>
+<SuperClass code="D70"/>
+<Rubric kind="preferred">
+<Label xml:lang="de" xml:space="default">Angeborene Agranulozytose und Neutropenie</Label>
+</Rubric>
+<Rubric kind="inclusion">
+<Label xml:lang="de" xml:space="default">Agranulocytosis infantilis hereditaria</Label>
+</Rubric>
+<Rubric kind="inclusion">
+<Label xml:lang="de" xml:space="default">Angeborene Neutropenie</Label>
+</Rubric>
+<Rubric kind="inclusion">
+<Label xml:lang="de" xml:space="default">Kostmann-Syndrom</Label>
+</Rubric>
+</Class>
+
+<Rubric>MRDAAAT</Rubric>

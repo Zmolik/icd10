@@ -64,7 +64,7 @@ const getMatch = () => {
             for (let i = 0; i < jsonICD.length; i++) {
                 // IMPORTANT - two matching principles give two different outcomes
                 // 1. elemICD.preferredName == elemSub.name -> 241 matches (more exact)
-                // 2. elemICD.preferredName.startsWith(elemSub.name) -> 946 matches (correct codes but sometimes not specific enough)
+                // 2. elemICD.preferredName.startsWith(elemSub.name) -> 345 matches (correct codes but sometimes not specific enough)
                 // Solution - first do exact match, then startsWith. Result: the first 241 matches will have the more specific code
                 if (jsonICD[i].preferredName == elemSub.name) {
                     matches.push(

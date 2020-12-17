@@ -32,8 +32,7 @@ Cheerio:
 - codes: the idea was to access $("Class") and then iterate over it and for each access .attr("code"). I don't know why but 
   I could not iterate over the Class... if you any idea how to do it please tell me!
     - so I went around it and did it "oldschool" using string methods -> see getCodes.TS
-        - here is also a small mystery: I had to delete the first 3076 lines in the input for it to get all the same number of codes
-          as I got preferredNames of diagnoses (don't know why!)
+        - here is also a small mystery: I had to delete the first 3076 lines in the input for it to get all the same number of codes as I got preferredNames of diagnoses (don't know why!)
 - diagnoses: the idea was the same, access $("Class"), iterate over it and for each find preferredName and all the alternative ones. As I couln't iterate over
   the Classes I couln't get the alternative names in a list and pinpoint it to the unique code. But I could get all the preferred names and then merge them 
   with all the codes. One code gets one preferred name, so this could have been done. -> see getPreferred.ts and the merge is in main.ts
